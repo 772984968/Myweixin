@@ -40,7 +40,7 @@ class WeChatController extends Controller
                     [
                         "type" => "view",
                         "name" => "商城demo1",
-                        "url"  => "http://tpshop.limaolin.top/index.php/mobile"
+                        "url"  => "http://tpshop.limaolin.top/index.php/mobile/"
                     ],
                     [
                         "type" => "view",
