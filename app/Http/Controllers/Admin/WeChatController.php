@@ -57,4 +57,9 @@ class WeChatController extends Controller
         ];
         $app->menu->create($buttons);
     }
+    public function delete(){
+        $app = app('wechat.official_account');
+        $app->menu->delete();
+
+    }
 }

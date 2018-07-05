@@ -48,6 +48,7 @@ Route::group(['prefix'=>'/admin','namespace'=>'Admin'],function(){
        });
     Route::any('/wechat', 'WeChatController@serve');
     Route::any('/createMenu', 'WeChatController@createMenu');
+    Route::any('/delete', 'WeChatController@delete');
 
 
 
