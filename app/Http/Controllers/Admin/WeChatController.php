@@ -45,7 +45,7 @@ class WeChatController extends Controller
                     [
                         "type" => "view",
                         "name" => "商城demo2",
-                        "url"  => "http://v.qq.com/"
+                        "url"  => "http://shop.limaolin.top/index.php/"
                     ],
                     [
                         "type" => "view",
