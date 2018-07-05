@@ -31,11 +31,11 @@ class WeChatController extends Controller
         $buttons = [
             [
                 "type" => "click",
-                "name" => "今日歌曲",
+                "name" => "菜单",
                 "key"  => "V1001_TODAY_MUSIC"
             ],
             [
-                "name"       => "菜单",
+                "name"       => "商城demo",
                 "sub_button" => [
                     [
                         "type" => "view",
