@@ -39,18 +39,13 @@ class WeChatController extends Controller
                 "sub_button" => [
                     [
                         "type" => "view",
-                        "name" => "搜索",
-                        "url"  => "http://www.soso.com/"
+                        "name" => "商城demo1",
+                        "url"  => "http://tpshop.limaolin.top/index.php/mobile"
                     ],
                     [
                         "type" => "view",
-                        "name" => "视频",
+                        "name" => "商城demo2",
                         "url"  => "http://v.qq.com/"
-                    ],
-                    [
-                        "type" => "click",
-                        "name" => "赞一下我们",
-                        "key" => "V1001_GOOD"
                     ],
                 ],
             ],
