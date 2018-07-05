@@ -47,6 +47,11 @@ class WeChatController extends Controller
                         "name" => "商城demo2",
                         "url"  => "http://v.qq.com/"
                     ],
+                    [
+                        "type" => "view",
+                        "name" => "商城demo3",
+                        "url"  => "https://www.baidu.com/"
+                    ],
                 ],
             ],
         ];
