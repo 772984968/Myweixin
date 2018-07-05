@@ -42,8 +42,11 @@ Route::group(['prefix'=>'/admin','namespace'=>'Admin'],function(){
            require_once __DIR__.'/order.php';
            //评论管理
            require_once __DIR__.'/comment.php';
+            //微信
+
 
        });
+    Route::any('/wechat', 'WeChatController@serve');
 
 
 
